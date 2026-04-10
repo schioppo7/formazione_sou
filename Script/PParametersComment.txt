@@ -1,0 +1,21 @@
+Lo script in questione definisce una variabile "MINPARAMS" con il valore 10, cioè il numero minimo di parametri richiesti.
+
+Un primo "echo" per fare spaziatura,  risultato più pulito.
+
+L'echo successivo pronta il nome dello script tramite "$0", il print includerà anche il percorso.
+
+Il terzo "echo" printa ancora una volta il nome dello script ma stavolta senza le informazioni sul percorso della cartella tramite (basename $0).
+
+Infine il quarto "echo" pronta una linea vuota.
+
+Inizia poi una serie di condizioni tutte uguali fino al decimo parametro, l'if controlla che il primo parametro "$1" non sia vuoto "-n".
+
+Se l'if è vero allora (then) esegue l'istruzione dopo, printa il valore del parametro che è stato inserito dopo il nome dello script.
+
+Il "fi" indica a bash che il blocco if è terminato e così fino al parametro 10 dove l'unica cosa che cambia è che il parametro 10 deve essere incluso tra parentesi graffe, le parentesi graffe si utilizzano in Shell per numeri superiori a 9.
+
+Nell'echo successivo vengono printati tutti i parametri digitati grazie alla variabile "$*".
+
+Il blocco condizionale subito dopo conta il numero totale dei parametri se (if) tale numero è minore di 10 la condizione è vera e printerà quindi un avviso dicendo che lo script ha bisogno di almeno 10 argomenti.
+
+"Exit 0" termina lo script.

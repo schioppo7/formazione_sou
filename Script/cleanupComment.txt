@@ -1,0 +1,10 @@
+Questo script di Cleanup ci permette di cancellare dei file di log non fondamentali per l'esecuzione del sistema. 
+
+Come evinciamo anche dei commenti per fare ciò dobbiamo prima caricare il terminale come root poiché dobbiamo accedere alle cartelle /var/log che richiedono i massimi permessi (sudo -i). 
+
+Dopo aver fatto questo, con il comando cd ci spostiamo nella cartella /log dove attraverso l'operatore di reindirizzamento > andremo a spostare il file Messages e wtmp dentro /null, la quale funge da "buco nero" in cui ogni file inserito viene eliminato. 
+
+Infine andiamo semplicemente a fare un print di una linea per confermare la pulizia dei file.
+
+
+
