@@ -1,0 +1,8 @@
+Vagrant.configure("2") do |config|
+  config.vm.box = "ubuntu/focal64"
+  
+  config.vm.provision "shell", inline: <<-SHELL
+    echo "Macchina creata correttamente nella cartella vagrant!"
+    echo "Davide, il tuo server e' pronto." > /home/vagrant/saluto.txt
+  SHELL
+end
