@@ -22,6 +22,6 @@ Lo script si articola in tre fasi principali:
 1. **Configurazione_Scanner:** Avvia la VM con **vagrant up** e accedi allo scansionatore con **vagrant ssh scansionatore**.
 2. **Configurazione_Target:** Avvia la VM con **vagrant up** e accedi al target con **vagrant ssh scansionatore** ed aprire la porta voluta con il comando nc -lk 0.0.0.0 80 flag -l (listen), flag -k (keep alive).
 3. **Permessi:** Rendi eseguibile lo script:
-   chmod +x portscanner.sh
+   chmod +x scanner.sh
 4. **Esecuzione:** Lancia lo script indicando il target e il range:
    ./scanner.sh 192.168.56.10 80 443
