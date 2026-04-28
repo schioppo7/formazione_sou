@@ -18,10 +18,6 @@ else
     exit 1
 fi
 
-if (( INIZIO > FINE )); then
-    echo "Range porte non valido"
-    exit 1
-fi
 
 echo "Scansione su $IP da $INIZIO a $FINE..."
 for port in $(seq $INIZIO $FINE); 
