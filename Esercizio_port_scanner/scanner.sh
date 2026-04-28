@@ -11,8 +11,9 @@ INIZIO=$2
 FINE=$3
 
 # Controllo che l'IP sia valido (4 ottetti)
-IFS='.' read -r o1 o2 o3 o4 o5 <<< "$IP"
-if [ -n "$o5" ]; then
+if echo "$IP" | grep -eq '^[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+$'; then 
+    echo "L'indirizzo IP è valido"
+else
     echo "Indirizzo IP non valido"
     exit 1
 fi

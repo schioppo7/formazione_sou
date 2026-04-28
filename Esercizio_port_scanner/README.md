@@ -10,7 +10,7 @@ Lo script si articola in tre fasi principali:
 
 1. **Sanificazione degli input:**
    - **Controllo Argomenti:** Verifica tramite **$#** che siano stati passati esattamente 3 parametri (IP, porta inizio, porta fine).
-   - **Validazione IP:** Per gestire l'IP, uso **IFS='.'** (Internal Field Separator) per suddividere l'indirizzo in ottetti. Verifico che la variabile risultante non contenga un quinto ottetto.
+   - **Validazione IP:** Per gestire l'IP, uso **grep** per suddividere l'indirizzo in ottetti. Verifico che la variabile risultante non contenga un quinto ottetto o meno di quattro ottetti.
    - **Validazione Range:** Un controllo condizionale verifica che la porta di inizio non sia superiore alla porta di fine, evitando errori di logica nel ciclo.
 
 2. **Scansione:**
