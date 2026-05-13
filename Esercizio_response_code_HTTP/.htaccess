@@ -1,0 +1,12 @@
+#Responde code 301
+Redirect 301 /vecchio_file.html /index.html
+
+
+#Responde code 403
+<Files "privato.html">
+        Require all denied
+</Files>
+
+
+#Responde Code 404
+ErrorDocument 404 "Errore 404: Pagina Not Found."
