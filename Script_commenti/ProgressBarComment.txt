@@ -1,0 +1,19 @@
+Definizione degli intervalli di tempo in secondi.
+
+Avvio di un blocco di codice in background  per gestire la barra di avanzamento.
+Gestisce il segnale SIGUSR1 per interrompere il ciclo in background.
+Attesa iniziale prima di far partire i punti.
+Ciclo infinito che stampa un punto alla volta ogni secondo.
+
+Memorizza il PID (ID del processo) della barra di avanzamento appena avviata in background.
+Cattura l'uscita dello script per terminare in sicurezza il processo in background.
+
+Simula l'avvio di un'operazione molto lunga.
+Attesa di 10 secondi (la barra di avanzamento stampa i punti nel frattempo).
+Stampa il messaggio di fine operazione.
+
+Invia il segnale SIGUSR1 per arrestare il processo in background.
+Attende la reale chiusura del processo in background prima di procedere.
+Rimuove il "trap" impostato in precedenza per l'uscita dello script.
+
+Termina lo script restituendo il codice di uscita dell'ultimo comando.

@@ -1,0 +1,16 @@
+Dichiarazione dell'array
+L'opzione "-A" serve per dichiarare un array associativo, ovvero basato su chiavi testuali.
+
+Assegnazione dei valori
+Viene salvato l'indirizzo di Charles usando il nome come chiave dell'array.
+Viene salvato l'indirizzo di John usando il nome come chiave dell'array.
+Viene salvato l'indirizzo di Wilma usando il nome come chiave dell'array.
+
+Stampa degli indirizzi
+Stampa a schermo l'indirizzo di Charles richiamando la sua chiave specifica.
+Stampa a schermo l'indirizzo di Wilma richiamando la sua chiave specifica.
+Stampa a schermo l'indirizzo di John richiamando la sua chiave specifica.
+
+
+Stampa delle chiavi
+Il simbolo del punto esclamativo combinato con l'asterisco serve per stampare tutte le chiavi  dell'array anziché i loro valori.

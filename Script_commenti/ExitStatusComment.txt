@@ -1,0 +1,11 @@
+Stampa a schermo la parola "hello".
+Stampa il codice di uscita (0 perché il comando precedente è riuscito).
+
+Tenta di eseguire un comando inesistente per generare un errore.
+Stampa il codice di uscita (diverso da zero perché il comando è fallito).
+
+
+Termina lo script restituendo il codice personalizzato 113.
+Nota per verificare il codice sul terminale dopo la chiusura.
+
+Spiegazione della convenzione: 0 significa successo, non-zero significa errore.
