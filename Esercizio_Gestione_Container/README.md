@@ -33,5 +33,5 @@ L'orchestratore esegue una simulazione dello stato logico prima di applicare qua
 
 Prima di eseguire gli script, assicurati di avere installato e configurato sul tuo host:
 * [Vagrant](https://www.vagrantup.com/)
-* Un provider compatibile (es. VirtualBox, VMware o Parallels)
+* Un provider compatibile (es. VirtualBox)
 * Le due VM (`riva1` e `riva2`) avviate, con la rete privata configurata e Docker installato al loro interno.
