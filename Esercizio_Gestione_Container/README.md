@@ -9,9 +9,13 @@ Il sistema mappa gli elementi del problema tradizionale su componenti di un'infr
 | Elemento Originale | Componente Architetturale | Descrizione |
 
 | **Fiume** | Rete Privata Vagrant | Canale di comunicazione e barriera tra i due ambienti. |
+
 | **Riva 1** | Virtual Machine 1 (`riva1`) | Ambiente sorgente iniziale gestito tramite Vagrant. |
+
 | **Riva 2** | Virtual Machine 2 (`riva2`) | Ambiente target finale gestito tramite Vagrant. |
+
 | **Uomo** | Orchestratore | Agisce sia come Control Plane (logica dei movimenti) sia come garante fisico della sicurezza |
+
 | **Lupo / Capra / Cavolo** | Container Docker | Microservizi basati su immagini minimali (`alpine`). |
 
 ---
