@@ -44,9 +44,9 @@ migrazione_container() {
 }
 
 clear
-echo "======================================================================"
+echo 
 echo "       AVVIO PROCESSO DI MIGRAZIONE AUTOMATIZZATO (NON INTERATTIVO)   "
-echo "======================================================================"
+echo 
 
 #Passaggio 1
 echo "Passo 1: Uomo porta la capra sulla riva 2"
