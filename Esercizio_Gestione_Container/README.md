@@ -7,6 +7,7 @@ Questo progetto implementa una metafora DevOps basata sul classico enigma logico
 Il sistema mappa gli elementi del problema tradizionale su componenti di un'infrastruttura IT:
 
 | Elemento Originale | Componente Architetturale | Descrizione |
+
 | **Fiume** | Rete Privata Vagrant | Canale di comunicazione e barriera tra i due ambienti. |
 | **Riva 1** | Virtual Machine 1 (`riva1`) | Ambiente sorgente iniziale gestito tramite Vagrant. |
 | **Riva 2** | Virtual Machine 2 (`riva2`) | Ambiente target finale gestito tramite Vagrant. |
