@@ -15,6 +15,6 @@ rand_server=${SERVER_LIST[$((RANDOM % 4))]}
 rand_cpu=$((RANDOM % 90 + 10))
 # Scrive nel file
 echo "$rand_server $rand_cpu" >> "$FILE_OUTPUT"
-done; 
+done 
 
 echo "File '$FILE_OUTPUT' generato con successo!"
