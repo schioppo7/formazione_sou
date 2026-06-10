@@ -13,7 +13,7 @@ while read -r server cpu; do
     cpu_somma[$server]=$(( cpu_somma[$server] + cpu ))
     server_contatore[$server]=$(( server_contatore[$server] + 1 ))
 
-done < metriche.txt
+done < metriche.txt # Legge il file riga per riga, estrae il nome del server e il valore di CPU, e aggiorna la somma totale della CPU e il contatore per ogni server.
 
 # Calcolo media e stampa del report
 echo "=== REPORT UTILIZZO MEDIO CPU ==="
