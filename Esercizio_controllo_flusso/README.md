@@ -1,5 +1,5 @@
 
-### 1. `generatore_log.sh` (Il generatore di dati)
+### 1. `generatore_log.sh` 
 
 Questo script ha il solo scopo di **popolare l'ambiente di test** creando dei dati simulati su cui lavorare.
 
@@ -9,7 +9,7 @@ Questo script ha il solo scopo di **popolare l'ambiente di test** creando dei da
 
 ---
 
-### 2. `metriche.txt` (Il database grezzo)
+### 2. `metriche.txt` 
 
 È il **file di output** prodotto dal primo script e funge da archivio temporaneo.
 
@@ -18,7 +18,7 @@ Questo script ha il solo scopo di **popolare l'ambiente di test** creando dei da
 
 ---
 
-### 3. `analizza_metriche.sh` (L'analizzatore logico)
+### 3. `analizza_metriche.sh` 
 
 È lo script principale che risolve il problema matematico richiesto dall'esercizio, trasformando i dati grezzi in un report pulito.
 
