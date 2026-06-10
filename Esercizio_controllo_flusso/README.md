@@ -24,4 +24,4 @@ Questo script ha il solo scopo di **popolare l'ambiente di test** creando dei da
 
 * **Fase di lettura:** Apre il file `metriche.txt` e lo legge riga per riga dall'alto verso il basso. Isola automaticamente il nome del server dal valore numerico della CPU.
 * **Fase di smistamento (Array Associativi):** Utilizza due tabelle invisibili in memoria (chiamate array associativi) dove la "chiave" di ricerca è il nome del server. Man mano che legge le righe, lo script fa due cose contemporaneamente: in una tabella somma i valori di CPU e nell'altra conta quante volte quel server è apparso.
-* **Fase di calcolo e output:** Una volta letto tutto il file, lo script prende la somma totale della CPU di ogni server, la divide per il rispettivo numero di apparizioni e stampa a schermo la media finale in formato percentuale.
+* **Fase di calcolo e output:** Una volta letto tutto il file, lo script prende la somma totale della CPU di ogni server, la divide per il rispettivo numero di apparizioni e stampa a schermo la media.
