@@ -13,7 +13,7 @@ Questo script ha il solo scopo di **popolare l'ambiente di test** creando dei da
 
 È il **file di output** prodotto dal primo script e funge da archivio temporaneo.
 
-* **La struttura:** Non contiene codice, ma solo 100 righe di puro testo. Ogni riga rappresenta un singolo campionamento ed è composta sempre da due colonne separate da uno spazio: il nome del server e la percentuale di CPU rilevata in quel momento.
+* **La struttura:** Non contiene codice, ma solo 100 righe di puro testo. Ogni riga rappresenta un singolo dato ed è composta sempre da due colonne separate da uno spazio: il nome del server e la percentuale di CPU rilevata in quel momento.
 * **L'utilità:** Rappresenta lo storico dei log grezzi aziendali che un sistemista si troverebbe a dover analizzare.
 
 ---
