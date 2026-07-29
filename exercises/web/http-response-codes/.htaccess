@@ -1,0 +1,12 @@
+# Response code 301
+Redirect 301 /old_file.html /index.html
+
+
+# Response code 403 for /private.html
+<Files "private.html">
+        Require all denied
+</Files>
+
+
+# Response code 404
+ErrorDocument 404 "404 error: Page not found."

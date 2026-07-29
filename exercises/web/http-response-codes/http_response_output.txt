@@ -1,0 +1,31 @@
+vagrant@ubuntu-focal:/var/www/html$ curl -I http://localhost/index.html
+HTTP/1.1 200 OK
+Date: Tue, 12 May 2026 10:50:43 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Last-Modified: Tue, 12 May 2026 10:50:39 GMT
+ETag: "36-6519ca242b056"
+Accept-Ranges: bytes
+Content-Length: 54
+Content-Type: text/html
+
+
+vagrant@ubuntu-focal:/var/www/html$ curl -I http://localhost/old_file.html
+HTTP/1.1 301 Moved Permanently
+Date: Tue, 12 May 2026 10:51:39 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Location: http://localhost/index.html
+Content-Type: text/html; charset=iso-8859-1
+
+
+vagrant@ubuntu-focal:/var/www/html$ curl -I http://localhost/private.html
+HTTP/1.1 403 Forbidden
+Date: Tue, 12 May 2026 10:51:52 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Content-Type: text/html; charset=iso-8859-1
+
+
+vagrant@ubuntu-focal:/var/www/html$ curl -I http://localhost/missing.html
+HTTP/1.1 404 Not Found
+Date: Tue, 12 May 2026 10:54:32 GMT
+Server: Apache/2.4.41 (Ubuntu)
+Content-Type: text/html; charset=iso-8859-1

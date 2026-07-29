@@ -1,0 +1,21 @@
+The script defines the variable "MINPARAMS" with the value 10, which is the minimum number of required parameters.
+
+The first "echo" adds spacing for cleaner output.
+
+The next "echo" prints the script name using "$0", including its path.
+
+The third "echo" prints the script name again, this time without the folder path, by using `basename $0`.
+
+The fourth "echo" prints an empty line.
+
+A series of similar conditions then checks the parameters up to the tenth one. The first "if" uses "-n" to check that "$1" is not empty.
+
+If the condition is true, "then" runs the next instruction and prints the value entered after the script name.
+
+"fi" tells Bash that the if block has ended. For parameter 10, the only difference is that it must be enclosed in braces because shell parameters above 9 use this syntax.
+
+The next "echo" prints all entered parameters using "$*".
+
+The following conditional block counts all parameters. If the number is lower than 10, it prints a warning saying that the script needs at least 10 arguments.
+
+"exit 0" ends the script.

@@ -1,1 +1,0 @@
-print(sorted({frutta.lower() for frutta in ["pera", "pera", "MELA", "Mela", "BANANA"]}))

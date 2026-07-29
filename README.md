@@ -1,11 +1,13 @@
-# Formazione SOURCESENSE - Academy DevOps
+# DevOps Academy Exercises
 
-Repository dedicato al percorso formativo **Academy DevOps di Sourcesense**.
+A collection of the exercises completed during the course.
 
-Questo spazio raccoglie le esercitazioni, i test di configurazione e i laboratori pratici affrontati durante il corso, con l'obiettivo di consolidare le metodologie DevOps e la padronanza degli strumenti di automazione.
+## Folders
 
-  Stack e Competenze
+- [Bash](exercises/bash): shell scripts and Bash exercises
+- [Vagrant](exercises/vagrant): virtual machine exercises
+- [Containers](exercises/containers): Docker, Podman and small services
+- [Web](exercises/web): HTTP configurations and tests
+- [Bonus](exercises/bonus): extra exercises
 
-  * **Version Control**: Gestione avanzata di Git (branching, merging, rebase).
-  * **Environment**: macOS / Terminale / Vim.
-  * **DevOps Culture**: Approccio pratico alla gestione del codice e collaborazione
+Each exercise includes a short README.

@@ -1,0 +1,7 @@
+This cleanup script lets us clear log files that are not essential to the system.
+
+As the comments explain, we must first open the terminal as root because access to `/var/log` requires the highest permissions (`sudo -i`).
+
+After that, the `cd` command moves us to the `/log` folder. The `>` redirection operator sends the Messages and wtmp files to `/null`, which acts as a "black hole" where every inserted file is deleted.
+
+Finally, a line is printed to confirm that the files have been cleaned.

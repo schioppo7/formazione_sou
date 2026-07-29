@@ -1,0 +1,7 @@
+The script starts by defining the variable "ROOT_UID = 0" because the root user always has a UID equal to 0.
+
+Next, there is a series of "if/then/else" conditions. The first "if" states that if the user's UID equals the root UID (0), then it prints the message "You are root."
+
+All other cases where the UID is different from 0 use "else" to print another line of text.
+
+"fi" tells the shell that the if block has ended, and "exit 0" finishes the script.

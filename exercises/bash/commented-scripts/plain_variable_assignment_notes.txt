@@ -1,0 +1,21 @@
+Explanation of the "naked" variable concept
+
+Standard assignment of a numeric value to the variable "a".
+Prints the value of "a" using `$`.
+
+Uses "let" to perform a calculation and update the variable "a".
+Prints the new calculated value.
+
+
+"for" loop
+Prints the initial text on the same line using "-n".
+The for loop assigns each number to the variable "a".
+Prints the current value of "a".
+
+
+Prints the input prompt without starting a new line.
+"read" pauses the script and saves the user's input in the variable "a".
+Prints the value entered by the user.
+
+
+Ends the script with a success code.

@@ -1,0 +1,14 @@
+APPLE
+Apple
+Orange
+apple
+pear
+strawberry
+banana
+
+cat fruit.txt | tr '[:upper:]' '[:lower:]' | sort | uniq
+cat fruit.txt = reads the file
+| = "pipeline": takes the output from cat and passes it to the next command
+tr '[:upper:]' '[:lower:]' = converts everything to lowercase
+sort = sorts the lines alphabetically
+uniq = removes duplicate lines

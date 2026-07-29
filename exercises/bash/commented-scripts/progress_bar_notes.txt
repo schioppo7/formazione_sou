@@ -1,0 +1,19 @@
+Defines the time intervals in seconds.
+
+Starts a background code block to manage the progress bar.
+Handles the SIGUSR1 signal to stop the background loop.
+Waits before starting the dots.
+Runs an infinite loop that prints one dot every second.
+
+Stores the PID (process ID) of the progress bar running in the background.
+Catches the script exit to stop the background process safely.
+
+Simulates the start of a long-running operation.
+Waits for 10 seconds while the progress bar prints dots.
+Prints the completion message.
+
+Sends the SIGUSR1 signal to stop the background process.
+Waits for the background process to finish before continuing.
+Removes the "trap" previously set for the script exit.
+
+Ends the script and returns the exit code of the last command.

@@ -1,0 +1,16 @@
+Array declaration
+The "-A" option declares an associative array based on text keys.
+
+Value assignment
+Charles's address is stored using his name as the array key.
+John's address is stored using his name as the array key.
+Wilma's address is stored using her name as the array key.
+
+Printing the addresses
+Prints Charles's address by using his specific key.
+Prints Wilma's address by using her specific key.
+Prints John's address by using his specific key.
+
+
+Printing the keys
+The exclamation mark combined with the asterisk prints all array keys instead of their values.

@@ -1,0 +1,11 @@
+Prints the word "hello".
+Prints the exit code (0 because the previous command succeeded).
+
+Tries to run a nonexistent command to generate an error.
+Prints the exit code (different from zero because the command failed).
+
+
+Ends the script and returns the custom code 113.
+Note for checking the code in the terminal after the script finishes.
+
+Convention: 0 means success, while a non-zero value means an error.
